@@ -1,7 +1,7 @@
 import Owner from "../models/Owner.js";
 
 class  ownerController{
-    // functions to get all books
+    // functions to get all books from database
     static async getOwners(req, res){
         
         try {
