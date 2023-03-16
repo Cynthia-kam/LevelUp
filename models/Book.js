@@ -97,11 +97,7 @@ const Book=db.define('Book',{
         modelName: 'Book',
       }
 )
+
+// Owner.hasMany(Book);
 // Book.belongsTo(Owner, { foreignKey: 'ownerId' });
-// Owner.hasMany(Book, { foreignKey: 'ownerId' });
-Book.hasOne(Owner)
-Book.belongsTo(Owner, { 
-  foreignKey: 'id',
-  
-});
 export default Book;
