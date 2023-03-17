@@ -1,7 +1,7 @@
 {
   "name": "postgres",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "description": "interaction between node and postgres",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "path": "^0.12.7",
     "pg": "^8.10.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.29.3"
@@ -24,6 +25,9 @@
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.3",
     "@babel/node": "^7.20.7",
-    "@babel/preset-env": "^7.20.2"
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.21.0",
+    "babel-register": "^6.26.0",
+    "esm": "^3.2.25"
   }
 }
